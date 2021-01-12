@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ccclassroom/ccclassroom.iml" filepath="$PROJECT_DIR$/ccclassroom/ccclassroom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/des.iml" filepath="$PROJECT_DIR$/.idea/des.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dsclassroom/dsclassroom.iml" filepath="$PROJECT_DIR$/dsclassroom/dsclassroom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examoffice/examoffice.iml" filepath="$PROJECT_DIR$/examoffice/examoffice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mlclassroom/mlclassroom.iml" filepath="$PROJECT_DIR$/mlclassroom/mlclassroom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/t1Rem/t1Rem.iml" filepath="$PROJECT_DIR$/t1Rem/t1Rem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/t2Tahar/t2Tahar.iml" filepath="$PROJECT_DIR$/t2Tahar/t2Tahar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/t3Deepak/t3Deepak.iml" filepath="$PROJECT_DIR$/t3Deepak/t3Deepak.iml" />
+    </modules>
+  </component>
+</project>

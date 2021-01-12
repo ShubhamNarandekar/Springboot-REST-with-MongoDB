@@ -1,0 +1,96 @@
+<mxfile host="app.diagrams.net" modified="2021-01-04T20:16:44.192Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="CQ9F47h0dxB01bFkdWp0" version="14.0.1" type="gitlab">
+  <diagram id="_WPsyK5Dwv-tyZe26iSh" name="Page-1">
+    <mxGraphModel dx="1613" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WRqCSHt42sTeGtYuyETY-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERoneToMany;endFill=0;startArrow=ERmandOne;startFill=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="241" y="440" as="targetPoint" />
+            <mxPoint x="241" y="190" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WRqCSHt42sTeGtYuyETY-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmandOne;startFill=0;endArrow=ERmandOne;endFill=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="582" y="121" as="targetPoint" />
+            <mxPoint x="265" y="121" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tpdR13YcAsGeQyIv9L3X-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;dashPattern=1 4;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="215" y="121" as="sourcePoint" />
+            <mxPoint x="146" y="121" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WRqCSHt42sTeGtYuyETY-1" value="&lt;b&gt;Teacher n&lt;/b&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="215" y="80" width="50" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WRqCSHt42sTeGtYuyETY-6" value="&lt;b&gt;Student 1&lt;/b&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="134" y="480" width="50" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WRqCSHt42sTeGtYuyETY-7" value="&lt;b&gt;Student 2&lt;/b&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="215" y="480" width="50" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WRqCSHt42sTeGtYuyETY-8" value="&lt;b&gt;Student n&lt;/b&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="322" y="480" width="50" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WRqCSHt42sTeGtYuyETY-9" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="265" y="524.5" as="sourcePoint" />
+            <mxPoint x="322" y="525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WRqCSHt42sTeGtYuyETY-11" value="&lt;hr&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="60" y="450" width="360" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="WRqCSHt42sTeGtYuyETY-14" value="&lt;b&gt;ClassroomDS&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="220" y="620" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WRqCSHt42sTeGtYuyETY-15" value="" style="shape=datastore;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=2;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="582" y="330" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WRqCSHt42sTeGtYuyETY-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmandOne;startFill=0;endArrow=ERzeroToMany;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="322" y="440" as="targetPoint" />
+            <mxPoint x="582" y="160" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="582" y="160" />
+              <mxPoint x="322" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WRqCSHt42sTeGtYuyETY-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmandOne;startFill=0;endArrow=ERmandOne;endFill=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="623" y="320" as="targetPoint" />
+            <mxPoint x="622.5" y="190" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="623" y="220" />
+              <mxPoint x="623" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WRqCSHt42sTeGtYuyETY-17" value="&lt;b&gt;Examinations Office&lt;/b&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="597" y="80" width="50" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WRqCSHt42sTeGtYuyETY-21" value="&lt;b&gt;Teacher&#39;s DB&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="582" y="430" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WRqCSHt42sTeGtYuyETY-23" value="Distributed Exams System" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" parent="1" vertex="1">
+          <mxGeometry x="535" y="10" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WRqCSHt42sTeGtYuyETY-24" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Implementation&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p dir=&quot;auto&quot;&gt;&lt;/p&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&amp;nbsp; Using REST for communication between systems.&lt;/span&gt;&lt;p dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;span style=&quot;font-size: 12px&quot;&gt;Teacher:&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p dir=&quot;auto&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&amp;nbsp; &amp;nbsp;1. Assign students assessments (MCQ or homework) [1 to many communication]&lt;/span&gt;&lt;/p&gt;&lt;p dir=&quot;auto&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp;2. Receives answers from students [1 to 1]&lt;/span&gt;&lt;/p&gt;&lt;p dir=&quot;auto&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&amp;nbsp; &amp;nbsp;3. Checks answers and sends results to Examination Office&lt;/span&gt;&lt;/p&gt;&lt;p dir=&quot;auto&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&amp;nbsp; &amp;nbsp;Examination office (broker-ish):&lt;/span&gt;&lt;/p&gt;&lt;p dir=&quot;auto&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&amp;nbsp; &amp;nbsp;1. Receives results for students from Teacher&lt;/span&gt;&lt;/p&gt;&lt;p dir=&quot;auto&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&amp;nbsp; &amp;nbsp;2. Responds with results to individual students&lt;/span&gt;&lt;/p&gt;&lt;p dir=&quot;auto&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&amp;nbsp; &amp;nbsp;3. Creates report based on overall class performance and sends it to teacher DB&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p dir=&quot;auto&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&amp;nbsp; &amp;nbsp;with a different Distributed system such as REST&lt;/span&gt;&lt;/p&gt;&lt;p dir=&quot;auto&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p dir=&quot;auto&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp;Student:&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p dir=&quot;auto&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&amp;nbsp; &amp;nbsp;1. Receive assessment/homework from the Teacher. [1 to 1]&lt;/span&gt;&lt;/p&gt;&lt;p dir=&quot;auto&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&amp;nbsp; &amp;nbsp;2. Respond with answers.&lt;/span&gt;&lt;/p&gt;&lt;p dir=&quot;auto&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&amp;nbsp; &amp;nbsp;3. Receive feedback on answers.&lt;/span&gt;&lt;/p&gt;&lt;p dir=&quot;auto&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p dir=&quot;auto&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp;Teacher&#39;s Database: (Distributed database such as MongoDB)&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p dir=&quot;auto&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&amp;nbsp; &amp;nbsp;1. [Step 3 from Examination office] Receive a calculated percentage for a classroom&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p dir=&quot;auto&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&amp;nbsp; &amp;nbsp;along with the name &amp;amp; the test/exam.&lt;/span&gt;&lt;/p&gt;&lt;p dir=&quot;auto&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&amp;nbsp; &amp;nbsp;2. Store data accessible by only teachers.&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=middle;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#000000;strokeWidth=2;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="850" y="80" width="510" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="tpdR13YcAsGeQyIv9L3X-1" value="&lt;b&gt;Teacher&lt;/b&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="96" y="80" width="50" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tpdR13YcAsGeQyIv9L3X-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERoneToMany;endFill=0;startArrow=ERmandOne;startFill=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="118.5" y="440" as="targetPoint" />
+            <mxPoint x="118.5" y="190" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

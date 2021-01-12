@@ -1,0 +1,68 @@
+version: '3'
+services:
+  mongodb:
+    image: mongo:latest
+    ports:
+      - 27017:27017
+    environment:
+      - MONGO_INITDB_DATABASE=StudentRecord
+      - MONGO_INITDB_ROOT_USERNAME=localhost
+      - MONGO_INITDB_ROOT_PASSWORD=27017
+  examoffice:
+    build: examoffice
+    depends_on:
+      - mongodb
+#    command: ["./wait-for-it.sh", "mongo:27017", "--", "java", "examoffice.jar"]
+    environment:
+      WAIT_HOSTS: mongo:27017
+  t1rem:
+    build: t1Rem
+    environment:
+      SERVER_HOST: examoffice
+    depends_on:
+      - examoffice
+      - mongodb
+  t2tahar:
+    build: t2Tahar
+    environment:
+      SERVER_HOST: examoffice
+    depends_on:
+      - examoffice
+      - mongodb
+  t3deepak:
+    build: t3Deepak
+    environment:
+      SERVER_HOST: examoffice
+    depends_on:
+      - examoffice
+      - mongodb
+  dsclassroom:
+    build: dsclassroom
+    environment:
+      SERVER_HOST: examoffice
+    depends_on:
+      - examoffice
+      - mongodb
+      - t1rem
+      - t2tahar
+      - t3deepak
+  ccclassroom:
+    build: ccclassroom
+    environment:
+      SERVER_HOST: examoffice
+    depends_on:
+      - examoffice
+      - mongodb
+      - t1rem
+      - t2tahar
+      - t3deepak
+  mlclassroom:
+    build: mlclassroom
+    environment:
+      SERVER_HOST: examoffice
+    depends_on:
+      - examoffice
+      - mongodb
+      - t1rem
+      - t2tahar
+      - t3deepak

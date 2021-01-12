@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mlclassroom" />
+        <module name="core" />
+        <module name="ccclassroom" />
+        <module name="examoffice" />
+        <module name="t1Rem" />
+        <module name="dsclassroom" />
+        <module name="t3Deepak" />
+        <module name="t2Tahar" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ccclassroom" target="1.8" />
+      <module name="core" target="1.5" />
+      <module name="des" target="1.8" />
+      <module name="dsclassroom" target="1.8" />
+      <module name="examoffice" target="1.8" />
+      <module name="mlclassroom" target="1.8" />
+      <module name="t1Rem" target="1.8" />
+      <module name="t2Tahar" target="1.8" />
+      <module name="t3Deepak" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ccclassroom" options="-parameters" />
+      <module name="dsclassroom" options="-parameters" />
+      <module name="examoffice" options="-parameters" />
+      <module name="mlclassroom" options="-parameters" />
+      <module name="t1Rem" options="-parameters" />
+      <module name="t2Tahar" options="-parameters" />
+      <module name="t3Deepak" options="-parameters" />
+    </option>
+  </component>
+</project>
